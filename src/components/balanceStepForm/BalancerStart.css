@@ -1,0 +1,185 @@
+.balancer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin-bottom: 300px;
+}
+
+/* Heading */
+.balancer-heading {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.start-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin: 0 50px;
+  background: rgba(255, 255, 255, 0.5);
+  gap: 30px;
+}
+
+.start-container h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.get-started {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.get-started h3 {
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Input */
+.user-input-carbon-footprint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.user-input-carbon-footprint label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.user-input-carbon-footprint input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.go-to-calculator {
+  border: none;
+  padding: 5px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.go-to-calculator:hover {
+  background-color: #219fda;
+}
+
+.balancer-button-container {
+  padding-top: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #000000;
+}
+
+.balancer-button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.balancer-button:hover {
+  background-color: #219fda;
+}
+
+/* If userCarbonFootprint is not null */
+.display-carbon-footprint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.display-carbon-footprint h3 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.display-carbon-footprint h1 {
+  font-size: 140px;
+  font-weight: 300;
+  color: #63b5db;
+}
+
+.display-carbon-footprint p {
+  font-weight: 700;
+}
+
+.display-carbon-footprint li {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+@media (max-width: 1060px) {
+  .display-carbon-footprint h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 890px) {
+  .display-carbon-footprint h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 580px) {
+  .start-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 505px) {
+  .start-container {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .balancer-container {
+    padding: 10px;
+  }
+}

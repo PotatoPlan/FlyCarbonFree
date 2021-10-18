@@ -1,0 +1,66 @@
+.one-program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.organisation-thumbnail {
+  height: 300px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.one-program img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 90%;
+}
+
+.one-program p {
+  color: #4f4f4f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Comparison button */
+.compare-button {
+  border: none;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  width: 80px;
+}
+
+.compare-button:hover {
+  background-color: #219fda;
+}
+
+.remove-button {
+  border: none;
+  color: #ffffff;
+  background-color: #c73333;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  width: 80px;
+}
+
+.remove-button:hover {
+  background-color: #ac2f2f;
+}

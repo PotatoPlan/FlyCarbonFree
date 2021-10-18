@@ -1,0 +1,228 @@
+.balancer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin-bottom: 300px;
+}
+
+/* Heading */
+.balancer-heading {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.balancer-result-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin: 0 50px;
+  background: rgba(255, 255, 255, 0.8);
+  gap: 30px;
+}
+
+.balancer-result-container h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.balancer-result-number-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.balancer-result-number h3 {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.balancer-result-number h1 {
+  font-weight: 300;
+  color: #63b5db;
+  font-size: 60px;
+}
+
+.balancer-suggestion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.single-suggestion {
+  width: 15%;
+  height: auto;
+  font-size: 100px;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.single-suggestion p {
+  font-size: 12px;
+}
+
+.external-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 25%;
+  margin: 5px 0;
+}
+
+.balancer-result-button {
+  border: none;
+  width: 200px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.balancer-result-button:hover {
+  background-color: #219fda;
+}
+
+.links-container {
+  margin-top: 10px;
+}
+
+.smaller-balancer-result-icon {
+  display: none;
+}
+
+.saved-credit-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.saved-option h3 {
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.balancer-saved-button {
+  border: none;
+  width: 90px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.balancer-saved-button:hover {
+  background-color: #219fda;
+}
+
+@media (max-width: 1060px) {
+  .balancer-result-container {
+    margin: 0;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 920px) {
+  .single-suggestion {
+    font-size: 50px;
+  }
+  .single-suggestion p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 810px) {
+  .balancer-suggestion {
+    display: none;
+  }
+
+  .smaller-balancer-result-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .smaller-single-suggestion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 50px;
+  }
+
+  .smaller-single-suggestion p {
+    font-size: 20px;
+  }
+
+  .balancer-result-number-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 530px) {
+  .balancer-container {
+    padding: 20px;
+  }
+
+  .balancer-result-container {
+    padding: 5px;
+  }
+}

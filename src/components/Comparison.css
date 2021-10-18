@@ -1,0 +1,186 @@
+/* Program Container */
+.program-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 300px;
+  gap: 50px;
+}
+
+/* Heading */
+.program-heading {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #000000;
+}
+
+.program-heading p {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.compare-confirm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.to-compare-button {
+  border: none;
+  color: #ffffff;
+  background-color: #7cb98e;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  width: 120px;
+}
+
+.to-compare-button:hover {
+  background-color: #37b95e;
+}
+
+/* Result page */
+.to-back-button-container {
+  text-align: center;
+  border-top: 1px solid #000000;
+  padding-top: 50px;
+}
+
+.to-back-button {
+  border: none;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  width: 120px;
+}
+
+.to-back-button:hover {
+  background-color: #219fda;
+}
+
+.program-result-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin-bottom: 300px;
+  gap: 50px;
+}
+
+.comparison-dropdown {
+  max-width: 30%;
+}
+
+.comparison-dropdown input {
+  font-size: 15px;
+}
+
+.to-remove-organisation {
+  border: none;
+  color: #ffffff;
+  background-color: #c73333;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  width: 80px;
+}
+
+.to-remove-organisation:hover {
+  background-color: #ac2f2f;
+}
+
+.selected-organisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.selected-organisation-logo-container {
+  height: 100px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.selected-organisation-logo {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 90%;
+}
+
+.table-head {
+  vertical-align: text-top;
+}
+
+.table-head p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* Organisation container */
+.organisation-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.comparison-load-error {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1000px) {
+  .program-heading h1 {
+    font-size: 30px;
+  }
+
+  .program-heading p {
+    font-size: 20px;
+  }
+}

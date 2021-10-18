@@ -1,0 +1,96 @@
+.navigation-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.5);
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.main-logo {
+  height: 80px;
+  padding-left: 30px;
+}
+
+.route-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-right: 50px;
+}
+
+.nav-dropdown {
+  color: #4f4f4f;
+}
+
+.nav-dropdown:hover {
+  color: #000000;
+}
+
+.nav-dropdown-text {
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.nav-dropdown-text:hover {
+  color: #4f4f4f;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.small-nav-container {
+  display: none;
+}
+
+/* RESPONSIVE DESIGN */
+.hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .navigation-container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .small-nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+  }
+
+  .route-container {
+    display: none;
+  }
+}

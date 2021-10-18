@@ -1,0 +1,251 @@
+/* Slideshow */
+.slideshow {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+.each-fade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+.slideshow-image {
+  width: 75%;
+}
+
+.slideshow-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.slideshow-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.slideshow-text h3 {
+  font-size: 20px;
+}
+
+.slideshow p {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* New Homepage */
+.hero-feature-container {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.problem-statement {
+  padding: 80px 200px;
+  text-align: center;
+}
+
+.problem-statement h1 {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.problem-statement button {
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  background-color: #63b5db;
+  cursor: pointer;
+}
+
+.problem-statement button:hover {
+  background-color: #219fda;
+}
+
+.hero-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.the-feature {
+  width: 400px;
+  height: 650px;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.the-feature-thumbnail {
+  width: 100%;
+  height: 70%;
+}
+
+.the-feature img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.the-feature-text {
+  width: 100%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.the-feature-text h3 {
+  font-weight: 500;
+}
+
+.the-feature-text p {
+  font-weight: 300;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.the-feature-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.the-feature-button button {
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  background-color: #63b5db;
+  cursor: pointer;
+}
+
+.the-feature-button button:hover {
+  background-color: #219fda;
+}
+
+.hero-features-compact {
+  display: none;
+}
+
+@media (max-width: 1210px) {
+  .hero-features {
+    gap: 5px;
+  }
+
+  .the-feature {
+    width: 300px;
+    height: 550px;
+  }
+
+  .the-feature-thumbnail {
+    height: 65%;
+  }
+
+  .the-feature-text {
+    height: 20%;
+  }
+
+  .problem-statement {
+    padding: 80px 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .the-feature {
+    width: 250px;
+    height: 450px;
+  }
+
+  .the-feature-thumbnail {
+    height: 60%;
+  }
+
+  .the-feature-text {
+    height: 20%;
+  }
+
+  .the-feature-text h3 {
+    font-size: 12px;
+  }
+
+  .the-feature-text p {
+    font-size: 12px;
+  }
+
+  .problem-statement h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-features {
+    display: none;
+  }
+
+  .hero-feature-container {
+    margin-bottom: 0;
+  }
+
+  .hero-features-compact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.5);
+    gap: 20px;
+    margin: 50px 0;
+  }
+
+  .compact-hero {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #000000;
+  }
+
+  .compact-hero h3 {
+    font-weight: 300;
+  }
+
+  .compact-hero button {
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #63b5db;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .compact-hero button:hover {
+    background-color: #219fda;
+  }
+}

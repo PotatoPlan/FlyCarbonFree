@@ -1,0 +1,77 @@
+/* Render background image based on the user's route */
+.app {
+  background-image: url("./assets/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.Calculator {
+  background-image: url("./assets/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.CalculateResult {
+  background-image: url("./assets/bg3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.Comparison {
+  background-image: url("./assets/bg4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.ComparisonResult {
+  background-image: url("./assets/bg4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.AboutUs {
+  background-image: url("./assets/bg5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.LearnCarbonEmissions {
+  background-image: url("./assets/bg6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.LearnCarbonFootprint {
+  background-image: url("./assets/bg6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.LearnReduce {
+  background-image: url("./assets/bg6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.Balancer {
+  background-image: url("./assets/bg7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app.BalancerResult {
+  background-image: url("./assets/bg9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

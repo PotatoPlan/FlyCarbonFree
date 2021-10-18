@@ -1,0 +1,23 @@
+.not-found-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 50px;
+  margin: 220px;
+  color: #ffffff;
+}
+
+.not-found-messages h3 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.not-found-sign {
+  height: 200px;
+}

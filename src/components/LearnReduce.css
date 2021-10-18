@@ -1,0 +1,100 @@
+.learn-reduce-container {
+  margin-bottom: 400px;
+}
+
+.learn-reduce-content {
+  margin: 50px 80px 0 80px;
+}
+
+.learn-reduce-button {
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #63b5db;
+}
+
+.learn-reduce-button:hover {
+  background-color: #219fda;
+}
+
+.learn-reduce-content h1 {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.learn-reduce-text {
+  margin-top: 50px;
+  padding: 20px;
+  gap: 50px;
+  background-color: rgb(255, 255, 255, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learn-reduce-paragraph {
+  text-align: justify;
+}
+
+.learn-reduce-paragraph h3 {
+  padding-bottom: 20px;
+}
+
+.learn-reduce-paragraph p {
+  line-height: 1.5;
+}
+
+.visualisation-images {
+  width: 60%;
+}
+
+@media (max-width: 1000px) {
+  .learn-reduce-image-container {
+    display: none;
+  }
+
+  .learn-reduce-paragraph {
+    max-width: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .learn-reduce-container {
+    margin-bottom: 200px;
+  }
+
+  .visualisation-images {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .learn-reduce-content {
+    margin: 100px 30px 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .learn-reduce-container {
+    margin-bottom: 200px;
+  }
+
+  .learn-reduce-button {
+    font-size: 15px;
+    width: 100px;
+  }
+  .learn-reduce-content {
+    margin: 100px 10px 0 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .learn-reduce-content {
+    margin: 100px 5px 0 5px;
+  }
+}

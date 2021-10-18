@@ -1,0 +1,183 @@
+.balancer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin-bottom: 300px;
+}
+
+/* Heading */
+.balancer-heading {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.public-transport-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  margin: 0 50px;
+  background: rgba(255, 255, 255, 0.5);
+  gap: 30px;
+}
+
+.public-transport-container h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.public-transport-container img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.daily-travel-distance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.daily-travel-distance label {
+  margin-bottom: 10px;
+}
+
+.daily-travel-distance input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.daily-transport-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.daily-transport-input label {
+  margin-bottom: 10px;
+}
+
+.daily-transport-dropdown {
+  font-size: 12px;
+}
+
+.daily-transport-dropdown input {
+  font-size: 12px;
+}
+
+.balancer-button-container {
+  padding-top: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #000000;
+}
+
+.balancer-button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #63b5db;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.balancer-button:hover {
+  background-color: #219fda;
+}
+
+.balancer-check-button {
+  border: none;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #63db69;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.balancer-check-button:hover {
+  background-color: #21bd28;
+}
+
+.balancer-check-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.compare-warning-message {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.emissions-compare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  font-size: 27px;
+}
+
+.emissions-compare-transport-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.emissions-compare-transport-type p {
+  font-size: 12px;
+}
+
+@media (max-width: 660px) {
+  .public-transport-container {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .emissions-compare-container {
+    display: none;
+  }
+}
